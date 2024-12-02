@@ -84,19 +84,19 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
-  color: #ffffff;
+  background: hsl(293, 83%, 48%);
+  color: hsl(69, 91%, 46%);
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
-  font-weight: 600;
+  font-weight: 610;
 }
 
 .php-email-form .sent-message {
@@ -106,7 +106,7 @@ h6 {
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
-  font-weight: 600;
+  font-weight: 610;
 }
 
 .php-email-form .loading {
@@ -268,7 +268,7 @@ h6 {
 .navmenu a:focus {
   color: var(--nav-color);
   padding: 15px 10px;
-  font-family: var(--nav-font);
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-weight: 400;
   display: flex;
@@ -677,7 +677,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: var(--heading-font);
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 
@@ -698,7 +698,7 @@ section,
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: var(--heading-font);
+  font-family: "Times New Roman", Times, serif;
 }
 
 .skills .progress .skill .val {
