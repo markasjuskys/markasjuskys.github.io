@@ -96,7 +96,7 @@ h6 {
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
-  font-weight: 610;
+  font-weight: 550;
 }
 
 .php-email-form .sent-message {
@@ -106,7 +106,7 @@ h6 {
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
-  font-weight: 610;
+  font-weight: 550;
 }
 
 .php-email-form .loading {
@@ -177,7 +177,7 @@ h6 {
 .header .logo h1 {
   font-size: 25px;
   margin: 0;
-  font-weight: 700;
+  font-weight: 650;
   color: var(--heading-color);
 }
 
@@ -270,7 +270,7 @@ h6 {
   padding: 15px 10px;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 380;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -473,7 +473,7 @@ h6 {
 
 .page-title h1 {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 .page-title .breadcrumbs ol {
@@ -483,7 +483,7 @@ h6 {
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 450;
 }
 
 .page-title .breadcrumbs ol li+li {
@@ -518,7 +518,7 @@ section,
 
 .section-title h2 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 650;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
