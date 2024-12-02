@@ -175,7 +175,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 24px;
+  font-size: 25px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -186,7 +186,7 @@ h6 {
 }
 
 .header .social-links a {
-  font-size: 16px;
+  font-size: 15px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -226,7 +226,7 @@ h6 {
 .header .header-toggle {
   color: var(--contrast-color);
   background-color: var(--accent-color);
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,7 +269,7 @@ h6 {
   color: var(--nav-color);
   padding: 15px 10px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -280,13 +280,13 @@ h6 {
 
 .navmenu a .navicon,
 .navmenu a:focus .navicon {
-  font-size: 20px;
+  font-size: 22px;
   margin-right: 10px;
 }
 
 .navmenu a .toggle-dropdown,
 .navmenu a:focus .toggle-dropdown {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 0;
   margin-left: auto;
   width: 30px;
@@ -379,7 +379,7 @@ h6 {
 
 .footer .credits {
   margin-top: 4px;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -436,7 +436,7 @@ h6 {
 }
 
 .scroll-top i {
-  font-size: 24px;
+  font-size: 25px;
   color: var(--contrast-color);
   line-height: 0;
 }
@@ -472,7 +472,7 @@ h6 {
 }
 
 .page-title h1 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -482,7 +482,7 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -517,7 +517,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
