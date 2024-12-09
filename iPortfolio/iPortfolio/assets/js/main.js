@@ -5,6 +5,29 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+// Laikrodžio funkcija
+function updateClock() {
+  const timeElement = document.getElementById("time");
+  const now = new Date();
+  let hours = now.getHours();
+  let minutes = now.getMinutes();
+  let seconds = now.getSeconds();
+
+  // Formatuoti laiką su dviem skaitmenimis (pvz., 09:05:03)
+  hours = hours < 10 ? '0' + hours : hours;
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  seconds = seconds < 10 ? '0' + seconds : seconds;
+
+  // Atnaujinti laiką
+  timeElement.textContent = hours + ":" + minutes + ":" + seconds;
+}
+
+// Atnaujinti laiką kas sekundę
+setInterval(updateClock, 1000);
+
+// Inicializuoti laikrodį iškart įkėlus puslapį
+window.onload = updateClock;
+
 
 (function() {
   "use strict";
