@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Weather Temperature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information</h1>
+        <p>Enter a location to get the weather (random temperature):</p>
+        <form id="weatherForm">
+            <input type="text" id="location" placeholder="Enter location" required>
+            <button type="submit">Get Temperature</button>
+        </form>
+        <div id="result" class="result">
+            <p id="locationName"></p>
+            <p id="temperature"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
